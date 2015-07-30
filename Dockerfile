@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-RUN apt-get update && apt-get -y upgrade && apt-get install -y python-pip
+RUN apt-get update && apt-get install -y python-pip
 RUN pip install shadowsocks
 
 ENV PASSWORD password
